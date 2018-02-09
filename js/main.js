@@ -244,7 +244,8 @@ function stopGame() {
 
   }
   if (mezcal2 >= 27) {
-    myGame.caballito2.drawWinner();    canvas.font='150px Anton'
+    myGame.caballito2.drawWinner();   
+    canvas.font='150px Anton'
     canvas.fillStyle= '#48BA95';
     canvas.fillText("YOU WON!", 200, 400);
   } else if (mezcal2 <= 0) {
